@@ -1,0 +1,2 @@
+# RigoBlockPaper
+RigoBlock formal specification
