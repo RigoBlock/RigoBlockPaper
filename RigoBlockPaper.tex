@@ -128,8 +128,11 @@ Since NAV estimate and registration on-chain require the use of computation of t
 
 \subsection{Fair User Behavior And NAV Publishing}
 According to our approach, the user will publish a bid and an ask price for the shares of her fund. At those prices the fund is forced to buy and sell any amount of the shares. Therefore two conditions have to be met all the time: the fund has to always keep a minimum amount of Ether available for redemptions, in order to be able to fulfill requests in real time; the manager will have to publish the actual NAV value, otherwise becoming potential target of arbitrageurs.
-The educated reader might think that manipulation and dishonest behavior are factors which should not be taken out of the equation, since at the end we are all humans. One possibility is to have the code sorting out everything for us, which is a viable approach and we will consider further developing towards this path. Our current alternative is to create a mechanism of incentives, where good behavior is rewarded and bad behavior is punished, so that NAV estimate does not rely on a centralized party. First of all, the whole infrastructure is built in a transparent manner, so that all information is public; even if NAV estimate is not performed on-chain, each individual has the possibility of performing a due diligence of the portfolio in real time. Second, by allowing good managers to access a market of "Fund of Funds", we lay down the basis for honest behavior and exponential growth for the best managers.
+The educated reader might think that manipulation and dishonest behavior are factors which should not be taken out of the equation, since at the end we are all humans. One possibility is to have the code sorting out everything for us, which is a viable approach and we will consider further developing towards this path. Our current alternative is to create a mechanism of incentives, where good behavior is rewarded and bad behavior is punished, so that NAV estimate does not rely on a centralized party. First of all, the whole infrastructure is built in a transparent manner, so that all information is public; even if NAV estimate is not performed on-chain, each individual has the possibility of performing a due diligence of the portfolio in real time. 
+Second, by allowing good managers to access a market of "Fund of Funds", we lay down the basis for honest behavior and exponential growth for the best managers.
 Lastly, we would like to remind that one of the most important references in a trader's career is her own track record: either NDAs with previous employers or the use of single managed accounts make it difficult to provide an actual track record. Auditing by a third party is also quite expensive. With our proposed paradigm, an audited real time track record obtained by trading real money is not only available through the NAV published by the trader, but also computable by anyone requesting the data directly from the blockchain, therefore without requiring any friction or intermediary. The world-famous American financial journalist and trader Jack D. Schwager has recently launched a startup for performing these calculations and audits on traders' traditional managed accounts, as a proof of need of such product.
+
+\includegraphics[width=8.2cm]{pop-tokenomics2.png}
 
 \section{Rewarding Performance}
 Many investors, amongst which legendary investor Warren Buffett, have publicly criticized the risk-taking culture in asset management and hedge funds in particular, which is enhanced by the current fee structure. In fact the typical 20 percent performance fee is criticized for pushing managers to take too much risk focusing on short term performance. The presence of hefty management fees in most cases leads to big funds' lackluster performance. An empirical phenomenon observed with the growth of a fund is the inability to replicate exceptional returns obtained in the early days. At that point their management fees are so high that are often not justifiable based on the cost structure of the hedge fund.
@@ -146,6 +149,7 @@ A further way to create an ecosystem for funds is the concept of distribution: t
 \subsection{Excessive Risk Taking}
 Excessive risk taking is the practice of exploiting a 20 percent performance fee by taking as much risk as possible in order to generate the biggest returns, therefore allowing the manager to focus on short term gains. We believe that our Proof-of-Performance model has the potential to shift management focus more on the long term, while at the same time leaving uncapped the total amount a good manager can receive, as the Rigo token holders can together set the correct parameters for rewarding performance. We believe, in the long run, this methodology will not lead to lower pay for the manager, but since her focus is on long term returns, it will improve the quality of the returns.
 
+\includegraphics[width=8.2cm]{pop-tokenomics1.png}
 
 \section{Vault} \label{ch:minimum}
 By removing most of the hypotheses set before, the resulting product is a completely trustless and simple vehicle: the Vault. It can be seen as  \textit{trustless version of Xapo for the Ethereum community}.
@@ -168,9 +172,6 @@ The RigoBlock Exchange is limited by the challenges all decentralized exchanges 
 Proof-of-Performance is our new paradigm for rewarding managers’ performances. As we said before, we disrupt the traditional concepts of management and performance fees. Proof-of-Performance allows traders to mine (technically mint) GRG tokens based on their risk-adjusted performance. The bigger their pool of tokens, the more GRG tokens they will be entitled to mint. Managers are required to hold a minimum amount of GRG tokens in order to run their own decentralized pool of tokens.
 The GRG token does not hold intrinsic value, is not represented by any real activity or security, does not bear or entitle to any dividends or interest is not backed by assets. Its sole purpose is for allowing reward of performance of traders and being at the basis of our incentives mechanism.
 
-\includegraphics[width=8.2cm]{pop-tokenomics.png}
-The above picture is a summary schematic of the Proof-of-Performance incentives system. This shows token pool managers receiving rewards based on the condition they hold the minimum amount of GRG tokens in their own wallet. Standard users are also required to hold GRGs in order to unlock premium features, which are otherwise locked by default. 
-
 In particular, activities which might require the status of ”accredited”, ”specialized”, or which might fall under the scope of regulation, will require users to hold minimum thresholds of GRG tokens.
 
 \subsection{The Assets Component}
@@ -181,6 +182,9 @@ The second component is a calculation of the absolute performance of a token poo
 
 \subsection{The High-Water Mark}
 Each token pool gets benchmarked against its high-water mark, ensuring that only positive performance is compounded. Unless a token pool’s net-assets-value is at least equal to its high-water mark, no Proof-of-Performance tokens can be minted for said token pool.
+
+\includegraphics[width=8.2cm]{pop-tokenomics4.png}
+The above picture is a summary schematic of the Proof-of-Performance incentives system. This shows token pool managers receiving rewards based on the condition they hold the minimum amount of GRG tokens in their own wallet. Standard users are also required to hold GRGs in order to unlock premium features, which are otherwise locked by default. 
 
 \subsection{Dynamic Parameters Setting}
 The assets and performance components are combined in a dynamic way set by the token holders, so that market equilibriums determine the optimal mix. Each manager’s reward is obtained by multiplying the assets and performance components combined by the reward factor of the class (or application) the token pool belongs to. The reward factor is dynamically set by the token holders. 
@@ -194,9 +198,11 @@ The GRG token is an inflation token. New tokens get created and allocated automa
 
 Such a reward is a substitute to management and performance fees. The distribution happens automatically from the Proof-of-Performance module tied to the GRG token, in a fully auditable and transparent way, and without manual intervention or reliance on a centralized counterpart. 
 
-The managers must hold a minimum amount of tokens in order to receive their rewards. The minimum is dynamic and set by the token holders, so that the ratio between inflation and demand within the ecosystem will be balanced. Standard users will be required to hold some GRGs in order to unlock premium features of the platform, thus generating additional demand. 
+The managers must hold a minimum amount of tokens in order to receive their rewards. The minimum is dynamic and set by the token holders, so that the ratio between inflation and demand within the ecosystem will be balanced. Standard users will be required to hold some GRGs in order to unlock premium features of the platform, thus generating additional demand.
 
 The RigoBlock protocol retains a royalty of 5 percent of new tokens created, in order to generate a continuous funding model which allows the reward of external developers creating applications on top of the RigoBlock protocol. Since the GRG token holders set the inflation parameters, the continuous funding model provides them with an incentive of targeting a positive inflation, rather than a null new tokens generation.
+
+\includegraphics[width=8.2cm]{pop-tokenomics3.png}
 
 \section{Future Directions} \label{ch:future}
 We have been building our proof of concepts since early 2016, with our first smart contracts for a decentralized investment vehicle released around August 2016; ever since we have been working on improving our concept, adding functionalities, checking for security and making the code a modular protocol, what we call the “smart contracts engine” so that it is more abstract and allows external service providers create their own decentralized management company on top of RigoBlock. Our platform has gone through alpha testing on the Kovan testnet and publicly accessible within the Parity UI since May 2017. We have made such choice to allow testing in a safe environment before moving to a more traditional UX experience.
