@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.6.2)  13 JUL 2018 02:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.6.2)  13 JUL 2018 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -788,11 +788,11 @@ Overfull \hbox (13.46408pt too wide) in paragraph at lines 152--153
  []
 
 [4 <./pop-tokenomics2.png>] [5 <./pop-tokenomics1.png>]
-<pop-tokenomics4.png, id=35, 1044.90375pt x 2008.50375pt>
+<pop-tokenomics4.png, id=35, 956.82469pt x 1827.82875pt>
 File: pop-tokenomics4.png Graphic file (type png)
 <use pop-tokenomics4.png>
 Package pdftex.def Info: pop-tokenomics4.png  used on input line 186.
-(pdftex.def)             Requested size: 233.3125pt x 448.46135pt.
+(pdftex.def)             Requested size: 233.3125pt x 445.68835pt.
 
 Overfull \hbox (13.46408pt too wide) in paragraph at lines 186--188
 [][]
@@ -819,7 +819,7 @@ n/9 Our mod-u-lar
 Here is how much of TeX's memory you used:
  15762 strings out of 492648
  296470 string characters out of 6132016
- 379395 words of memory out of 5000000
+ 379396 words of memory out of 5000000
  19179 multiletter control sequences out of 15000+600000
  7404 words of font info for 28 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
@@ -833,7 +833,7 @@ ublic/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 s/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on RigoBlockPaper.pdf (8 pages, 871464 bytes).
+Output written on RigoBlockPaper.pdf (8 pages, 1086199 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
